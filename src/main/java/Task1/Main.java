@@ -17,15 +17,12 @@ public class Main {
         }
         System.out.println("");
 
-        Solution1 solution1=new Solution1();
         Solution1.sum(arr);
         System.out.println("");
 
-        Solution2 solution2=new Solution2();
         int[] fib_arr= Solution2.doFibonacci(arr);
         System.out.println("");
 
-        Solution3 solution3= new Solution3();
         Solution3.percentageInFib(fib_arr);
     }
 
