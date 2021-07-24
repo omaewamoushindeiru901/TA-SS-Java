@@ -1,4 +1,4 @@
-package solutions;
+package Task1;
 
 public class Solution1 {
     static void sum(int[] arr){

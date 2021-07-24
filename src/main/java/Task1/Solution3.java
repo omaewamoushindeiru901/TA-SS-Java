@@ -1,7 +1,7 @@
-package solutions;
+package Task1;
 
 public class Solution3 {
-    static void percentage_in_fib(int[]arr){
+    static void percentageInFib(int[]arr){
         int counter_odd=0, counter_even=0;
         for(int i=0;i<arr.length;i++){
             if(arr[i]%2==0) counter_even++;

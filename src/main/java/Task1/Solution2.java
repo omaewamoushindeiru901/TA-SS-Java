@@ -1,4 +1,4 @@
-package solutions;
+package Task1;
 
 import java.util.Scanner;
 
@@ -17,10 +17,10 @@ public class Solution2 {
         }
         return fib_arr;
     }
-    static int[] do_fibonacci(int[]arr){
-        Scanner In=new Scanner(System.in);
+    static int[] doFibonacci(int[]arr){
+        Scanner Input=new Scanner(System.in);
         System.out.println("Enter the size of set: ");
-        int n=In.nextInt();
+        int n=Input.nextInt();
 
         int even=1,odd=0;
         for(int i=0;i<arr.length;i++) {
@@ -45,7 +45,6 @@ public class Solution2 {
             }
 
         }
-
        return fibonacci(even,odd,n);
     }
 }
