@@ -2,8 +2,8 @@ package Task2.Classes;
 
 public class Mercedes extends Car{
 
-    public Mercedes( String model, String colour, int price, float speedUp, float slowDown) {
-        super("Mercedes", model, colour, price, speedUp, slowDown);
+    public Mercedes() {
+        super("Mercedes");
     }
 
     public void setBrand() {

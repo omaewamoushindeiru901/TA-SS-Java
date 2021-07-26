@@ -10,13 +10,8 @@ public class Car implements Alarm, Vehicle {
     private float slowDown;
 
 
-    public Car(String brand, String model, String colour,int price,float speedUp, float slowDown){
+    public Car(String brand){
         this.brand=brand;
-        this.model=model;
-        this.colour=colour;
-        this.price=price;
-        this.speedUp=speedUp;
-        this.slowDown=slowDown;
     }
 
 

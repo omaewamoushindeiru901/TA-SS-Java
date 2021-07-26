@@ -2,8 +2,8 @@ package Task2.Classes;
 
 public class BMW extends Car {
 
-    public BMW( String model, String colour, int price, float speedUp, float slowDown) {
-        super("BMW", model, colour, price, speedUp, slowDown);
+    public BMW() {
+        super("BMW");
     }
 
     public void setBrand() {

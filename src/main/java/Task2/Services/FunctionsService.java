@@ -39,15 +39,24 @@ public class FunctionsService {
 
         Car car=null;
         if(number==BrandService.BMW.getBrandNumber()){
-            car=new BMW(model,colour,price,speedup,slowdown);
+            car=new BMW();
         }
         else if(number==BrandService.MERS.getBrandNumber()){
-            car=new Mercedes(model,colour,price,speedup,slowdown);
+            car=new Mercedes();
         }
         else if (number==BrandService.OTHER.getBrandNumber()){
-            car=new Car(brand,model,colour,price,speedup,slowdown);
+            car=new Car(brand);
         }
-        carList.add(car);
+
+        if (car != null) {
+            car.setModel(model);
+            car.setColour(colour);
+            car.setPrice(price);
+            car.setSlowDown(slowdown);
+            car.setSpeedUp(speedup);
+            carList.add(car);
+        }
+
     }
     public void show(List<Car> carList){
         for(Car cars:carList){
